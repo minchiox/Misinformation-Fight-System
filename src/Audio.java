@@ -5,7 +5,7 @@ import com.mpatric.mp3agic.Mp3File;
 public class Audio {
 	
 
-	private Mp3File mp3File;
+	protected Mp3File mp3File;
 	protected String percorso;
 	
 	public  Audio(String percorso) {
