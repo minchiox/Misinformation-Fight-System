@@ -1,3 +1,4 @@
+package Backend;
 
 import com.mpatric.mp3agic.Mp3File;
 
@@ -35,8 +36,4 @@ public class Audio {
 			e.printStackTrace();
 		}
 	}
-
-	
-	
-
 }
