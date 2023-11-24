@@ -42,5 +42,5 @@ public class Video {
 		this.frameRate = frameRate;
 	}
 	
-	
+
 }

@@ -1,20 +1,16 @@
 package Backend;
 import java.io.BufferedReader;
-import java.io.BufferedReader;
+
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
-
-import java.io.IOException;
-
 import com.google.api.client.googleapis.javanet.GoogleNetHttpTransport;
 import com.google.api.client.http.javanet.NetHttpTransport;
 import com.google.api.client.json.JsonFactory;
 import com.google.api.client.json.jackson2.JacksonFactory;
 import com.google.api.services.youtube.YouTube;
-import java.io.InputStreamReader;
 import java.security.GeneralSecurityException;
 
 public class Controller {
@@ -30,8 +26,8 @@ public class Controller {
 		protected String value;
 		protected String result;
 		
-		protected static final String API_KEY = "AIzaSyDmPpWcoJH-c4k38R2ZUM4ov7Ky3giD42U";
-		protected static final String API_KEY_GOOGLE = "AIzaSyCha9m9hROeiCk5-UvtB12TJjEWqfiGmRg";
+		protected static final String API_KEY = "XXXX";
+		protected static final String API_KEY_GOOGLE = "XXXX";
 		protected  BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		protected  String keys;
 		

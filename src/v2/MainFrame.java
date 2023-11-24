@@ -2,6 +2,7 @@ package v2;
 
 import java.awt.EventQueue;
 
+
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
@@ -10,27 +11,17 @@ import com.drew.imaging.ImageProcessingException;
 
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
-import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
 import java.io.IOException;
 import java.awt.event.ActionEvent;
-import javax.swing.JSeparator;
-import javax.swing.AbstractAction;
-import javax.swing.Action;
+
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;
 import javax.swing.JMenuBar;
 import java.awt.FlowLayout;
-import java.awt.GridLayout;
-import javax.swing.JLabel;
-import java.awt.BorderLayout;
-import javax.swing.SpringLayout;
-import javax.swing.BoxLayout;
-import net.miginfocom.swing.MigLayout;
-import java.awt.CardLayout;
-import java.awt.Button;
 
 
+
+@SuppressWarnings("serial")
 public class MainFrame extends JFrame {
 
 	GuiController guiC = new GuiController();

@@ -1,9 +1,9 @@
 package Backend;
 import java.io.File;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.security.GeneralSecurityException;
 import java.util.List;
 
 import org.apache.tika.parser.AutoDetectParser;

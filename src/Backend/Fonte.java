@@ -10,5 +10,5 @@ public class Fonte {
 	protected void setUrl(String url) {
 		Url = url;
 	}
-	
+
 }
